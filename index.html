@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Global admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish:wght@400;500;600;700&family=Outfit:wght@300;400;600&family=Permanent+Marker&family=Poppins:wght@300;400;700&family=Public+Sans:wght@300;400;700&family=Wendy+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main id="main" class="d-flex">
+
+    <aside class="col-2 d-flex flex-column align-items-center">
+
+        <section class="d-flex justify-content-around header-logo">
+            <div class="img-container">
+                <img src="./images/Union.png" alt="" width="2px">
+            </div>
+            <p class="text-light h4">etas</p>
+        </section>
+
+<section class="botton-container">
+    
+    <div>
+        <!-- side bar btn container starts right above-->
+    
+    <div class="mb-4">
+        <button class="sidebar-btn active text-start">
+            <img src="./images/dashboard.svg" alt="" class="px-1 btn-img">
+            <span class="text-light mt-1">Dashboard</span>
+        </button>
+    </div>
+    
+    <div class="mb-4">
+        <button class="merchant-button sidebar-btn text-start">
+            <span class="btn-img"><img src="./images/people-fill.svg" alt="" class="px-1 "></span>
+            <span class="text-light mt-1">Merchants</span>
+        </button>
+    </div>
+    
+    <div class="mb-4">
+        <button class="sidebar-btn text-start d-flex justify-content-between align-items-center" id="btn">
+    <div>
+        <span class="btn-img"> <img src="./images/wallet.svg" alt="" class="px-1"></span>
+        <span class="text-light mt-1 pe-2">Payroll Config</span>
+    </div>
+            <span><img src="./images/arrow-down.svg" alt="" class="arrow-down"></span>
+        </button>
+    </div>
+    
+    
+    <div class="mb-4">
+        <button class="sidebar-btn text-start d-flex justify-content-between align-items-center">    
+    <div>
+        <span class="btn-img"><img src="./images/file-earmark-text.svg" alt="" class="px-1"></span>
+        <span class="text-light mt-1 pe-4">Reports</span>
+    </div>
+            <span><img src="./images/arrow-down.svg" alt="" class="arrow-down"></span>
+        </button>
+    </div>
+    
+
+    <div class="mb-4">
+        <button class="sidebar-btn text-start">
+            <span class="btn-img"><img src="./images/gear-fill.svg" alt="" class="px-1"></span>
+            <span class="text-light mt-1">Account Settings</span>
+        </button>
+    </div>
+    
+    
+    <div class="mb-4">
+        <button class="sidebar-btn text-start">
+            <span class="btn-img"><img src="./images/question-circle-fill.svg" alt="" class="px-1"></span>
+            <span class="text-light mt-1">Help</span>
+        </button>
+    </div>
+    
+
+    <!-- dashboard btn container ends beneath -->
+    </div>
+</section>
+
+<!-- Avatar section -->
+<div class="d-flex justify-content-around user-profile align-self-xl-center align-self-xxl-start">
+
+<div class="avatar-container">
+    <img src="./images/avatar.png" alt="" class="avatar">
+</div>
+
+<div class="text-light text-start ps-2">
+    <p class="mb-0">Orevaoghene</p>
+    <p class="mb-0 text-muted">Agbro</p>
+</div>
+</div>
+<!-- End of avatar section -->
+    </aside>
+
+
+    <section id="main-content" class="col-10">
+
+<nav class="d-flex justify-content-end"> 
+    <div class="icon-container">
+        <img src="./images/icons8-search.svg" alt="" class="nav-icon search-icon">
+    </div>
+
+    <div class="icon-container">
+      
+<img src="./images/bell-solid.svg" alt=""  class="nav-icon bell-icon">
+    </div>
+
+    <div class="icon-container">
+        <img src="./images/arrow-right-from-bracket-solid.svg" alt=""  class="nav-icon exit-icon">
+    </div>
+</nav>
+
+<header class="d-flex justify-content-between align-items-center">
+   <div class="header-text"> <h2>Dashboard</h2></div>
+
+
+   <div class="d-flex justify-content-between align-items-center header-iconcontainer">
+<div> <span>From</span></div>
+<div><img src="./images/calendar2-week-fill.svg" alt="" class="header-icon"> <span>-</span> </div>
+<div> <img src="./images/calendar2-week-fill.svg" alt="" class="header-icon"></div>
+
+   </div>
+
+</header>
+
+
+
+<!-- <section class="dashboard-filter d-flex col-lg-12 justify-content-around"> -->
+
+     <section class="dashboard-filter col-lg-12 list-group list-group-horizontal">
+
+    <div class="filter-item list-group-item w-25">
+        <p class=" m-0 primary-text">Transaction value</p>
+        <p class="m-0 secondary-text"> &#8358;3,000,000,000</p>
+    </div>
+
+  <div class="filter-item list-group-item w-25">
+        <p class=" m-0 primary-text">Transaction volume</p>
+        <p class="m-0 secondary-text">300,00</p>
+    </div>
+    
+  <div class="filter-item list-group-item w-25">
+        <p class=" m-0 primary-text">Saved payment count</p>
+        <p class="m-0 secondary-text">500</p>
+    </div>
+    
+  <div class="filter-item filter-item3 list-group-item w-25">
+        <p class=" m-0 primary-text">Merchant count</p>
+        <p class="m-0 secondary-text">500</p>
+    </div>
+</section>
+
+
+
+sequi animi est excepturi nulla exercitationem aliquid ipsum enim unde architecto cum debitis. Reiciendis
+odit qui inventore, impedit, ducimus cum porro nesciunt hic odio, eius laborum omnis voluptate nobis nam
+sunt provident dignissimos ad velit! Cupiditate, assumenda, tempore quis nesciunt natus optio, non
+praesentium sunt possimus temporibus id voluptatem. Perferendis, dolore illo magni vitae quas tempora sed
+odio qui eligendi, in impedit at atque, temporibus saepe? Sunt magnam saepe quod nemo tenetur, ea blanditiis
+nulla, aspernatur dolor qui quidem necessitatibus error mollitia voluptates deleniti. Accusantium, nisi
+dolorem, voluptatibus nihil quisquam quidem animi sed, hic aut deserunt tempora numquam ex error? Neque,
+placeat in voluptate, dignissimos molestias eum iure corrupti, ipsa accusamus atque saepe. Voluptatibus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus
+sequi animi est excepturi nulla exercitationem aliquid ipsum enim unde architecto cum debitis. Reiciendis
+odit qui inventore, impedit, ducimus cum porro nesciunt hic odio, eius laborum omnis voluptate nobis nam
+sunt provident dignissimos ad velit! Cupiditate, assumenda, tempore quis nesciunt natus optio, non
+praesentium sunt possimus temporibus id voluptatem. Perferendis, dolore illo magni vitae quas tempora sed
+odio qui eligendi, in impedit at atque, temporibus saepe? Sunt magnam saepe quod nemo tenetur, ea blanditiis
+nulla, aspernatur dolor qui quidem necessitatibus error mollitia voluptates deleniti. Accusantium, nisi
+dolorem, voluptatibus nihil quisquam quidem animi sed, hic aut deserunt tempora numquam ex error? Neque,
+placeat in voluptate, dignissimos molestias eum iure corrupti, ipsa accusamus atque saepe. Voluptatibus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus
+sequi animi est excepturi nulla exercitationem aliquid ipsum enim unde architecto cum debitis. Reiciendis
+odit qui inventore, impedit, ducimus cum porro nesciunt hic odio, eius laborum omnis voluptate nobis nam
+sunt provident dignissimos ad velit! Cupiditate, assumenda, tempore quis nesciunt natus optio, non
+praesentium sunt possimus temporibus id voluptatem. Perferendis, dolore illo magni vitae quas tempora sed
+odio qui eligendi, in impedit at atque, temporibus saepe? Sunt magnam saepe quod nemo tenetur, ea blanditiis
+nulla, aspernatur dolor qui quidem necessitatibus error mollitia voluptates deleniti. Accusantium, nisi
+dolorem, voluptatibus nihil quisquam quidem animi sed, hic aut deserunt tempora numquam ex error? Neque,
+placeat in voluptate, dignissimos molestias eum iure corrupti, ipsa accusamus atque saepe. Voluptatibus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus
+cupiditate assumenda qui iusto, architecto saepe fugit recusandae eius quas. Eaque adipisci dignissimos
+cumque, atque nam dolor praesentium, non nisi illum, hic illo porro inventore. Repudiandae consectetur
+maiores dolorem consequatur, necessitatibus minima, sequi distinctio aliquid mollitia tempore doloremque.
+Voluptatum cumque voluptas rem voluptatem pariatur! Perferendis quae a, vero consequuntur dolorum amet cum
+distinctio est modi ullam libero eum itaque in eligendi dolore dolores placeat, et, officia quod soluta
+provident consequuntur possimus
+recusandae nostrum nisi dignissimos! Consectetur, soluta pariatur. Maxime, quasi modi. Natus minima quod
+quam dicta asperiores expedita, repudiandae magni veniam dolor nulla consectetur sit corrupti, voluptatem
+aliquam voluptas aperiam pariatur vel. Obcaecati, sequi. Assumenda alias nihil in molestiae molestias
+nostrum, sint a voluptatem, incidunt deserunt aperiam doloremque expedita! Eius voluptates, assumenda
+fugiat, similique quisquam sint totam quam corporis et, optio quae temporibus a perferendis voluptatibus
+maiores sit. Minus   
+    </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+*{
+ font-family: 'Mulish', sans-serif;
+}
+
+.header-logo{
+padding-top: 9%;
+margin-bottom: 28%;
+}
+
+
+
+.user-profile{
+    padding-top: 50%;
+}
+
+main{
+    position: relative;
+}
+    
+
+aside{
+    background: #0A1249;
+    z-index: 1;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+nav{
+    background: whitesmoke;
+    padding: 10px 0px 10px 20px;
+    height: 50px;
+    
+
+}
+
+
+
+nav :nth-child(2){
+    border-left: 2px solid #dfe0eb;
+    }
+
+nav :nth-child(3){
+    border-left: 2px solid #dfe0eb;
+    }
+
+.nav-icon{
+    cursor: pointer;
+}
+
+
+.icon-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-icon{
+    width: 15px;
+    height: 16px;
+}
+
+.bell-icon{
+    width: 14px;
+    height: 13px;
+}
+
+.exit-icon{
+    width: 15px;
+    height: 15px; 
+}
+
+#main-content{
+/* background-color: rgb(9, 9, 27); */
+color: black;
+/* padding: ; */
+}
+
+
+.sidebar-btn{
+   width: 140px;
+    /* max-width: 200px; */
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: #0A1249;
+    font-size: 13px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+.sidebar-btn:hover{
+    background: rgba(255, 255, 255, 0.25);
+ 
+}
+
+.active{
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid white;
+}
+
+.btn-img{
+    width: 11px;
+}
+
+.arrow-down{
+    width: 10px;
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.avatar-container{
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px;
+    border: 3px solid white;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+
+
+header{
+    background-color: white;
+    padding: 15px 22px;
+
+}
+
+
+
+.header-iconcontainer{
+    width: 282px;
+    background: rgba(245, 245, 245, 0.712);
+    height: 30px;
+    padding: 5px 10px;
+    color: #dfe0eb;
+    border-radius: 8px;
+}
+
+.header-text{
+font-size: 20px;
+font-weight: 600;
+line-height: 30.12px;
+
+}
+
+.header-icon{
+    width: 13.2px;
+    height: 12px;
+}
+
+
+.primary-text{
+    font-size: 13px;
+    color: rgba(159, 162, 180, 1);
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+.secondary-text{
+    color: rgba(37, 39, 51, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+.view_paymentbtn{
+width: 165px;
+height: 57px;
+color: black;
+border: 0px;
+border-radius: 8px;
+background-color: rgba(235, 235, 236, 1);
+padding: 10px 12px 10px 12px;
+}
+
+
+.initiate_paymentbtn{
+    background-color:  rgba(235, 238, 255, 1);
+    color: blue;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    border-radius: 8px;
+    width: 165px;
+    height: 57px;
+
+}
+
+.greendot{
+    width: 35px;
+    height: 35px;
+    padding-bottom: 5px;
+}
+
+
+
+.ID{
+     border-bottom: 1px solid #F4F5F6 ;
+     padding-top: 10px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1300px){
+
+
+
+    .secondary-text{
+        font-size: 22px;
+       
+    }
+
+
+    .avatar{
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+    }
+     
+     
+    .avatar-container{
+        text-align: center;
+        border-radius: 50%;
+        padding: 3px;
+        border: 3px solid white;
+        width: 55px;
+        height: 55px;
+        margin-bottom: 20px;
+        
+    }
+    .sidebar-btn{
+    width: 180px;
+    font-size: 14px;  
+    }
+
+    .user-profile{
+        padding-top: 60%;
+    }
+
+    
+    .header-text{
+        font-size: 20px;
+    }
+
+
+
+    .dashboard-filter{
+        background: rgb(225, 225, 225); 
+        width: 96%;
+        margin: auto;
+    }
+
+    /* .Merchant-filter{
+        width: 60%;
+        margin: 0px 0px 0px 20px;
+    } */
+
+
+
+
+.icon-container{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.search-icon{
+    width: 16px;
+    height: 17px;
+}
+
+.bell-icon{
+    width: 15px;
+    height: 14px;
+}
+
+}
+
+
+@media screen and (min-width: 1400px){
+
+    .secondary-text{
+        font-size: 24px;
+    }
+
+    .sidebar-btn{
+        width: 200px;
+        font-size: 15px;    
+        }
+
+        /* .Merchant-filter{
+            width: 60%;
+            margin: 0px 0px 0px 20px;
+        }
+   */
+    
+}
