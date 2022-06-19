@@ -1,1 +1,1 @@
-// alert("Unable to load chart feed, try reconnectiong to a stronger internet connection");
+alert("Unable to load chart feed, try reconnectiong to a stronger internet connection");
