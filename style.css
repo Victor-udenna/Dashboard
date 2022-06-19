@@ -239,7 +239,9 @@ font-weight: 600;
 }
 
 
-
+aside a{
+    text-decoration: none;
+}
 
 
 .graph-img{
