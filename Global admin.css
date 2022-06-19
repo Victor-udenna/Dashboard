@@ -19,10 +19,19 @@
     border-radius: 8px;
 } */
 
+
+
+.main-content{
+    padding-left: 1.5%;
+    padding-right: 3%;
+}
+
+
+
 .dashboard-filter{
-    background: rgb(247, 244, 244); 
+    background-color: #FAFAFA; 
     padding: 10px;
-    width: 95%;
+    width: 97%;
     margin: auto;
     border-radius: 10px;
        
@@ -37,6 +46,77 @@
     }
     
     .list-group-item{
-        background: rgb(247, 244, 244) !important; 
+        background-color: #FAFAFA !important; 
         border: none;
     }
+
+
+    .filter-item .primary-text{
+        font-size: 12px;
+           }
+       
+           .filter-item .secondary-text{
+               font-size: 18px;
+           }
+        
+     .recentpay-header{
+      padding-left: 1%;
+     }
+
+
+     .graph-info{
+        padding-top: 5%;
+     }
+        
+    .recent-payment{
+        padding: 3%;
+    }
+     
+     
+           
+
+           @media screen and (min-width: 1300px){
+          
+        .filter-item .secondary-text{
+            font-size: 22px;
+        } 
+        
+        
+        .recentpay-header{
+            padding-left: 5%;
+           }
+
+           .graph-img{
+            padding-top: 5%;
+           }
+           
+           .graph-info{
+            margin-top: 3%;
+            padding-left: 35px !important;
+        }
+
+
+        .main-content{
+            padding-left: 1.5%;
+            padding-right: 1%;
+        }
+
+           }
+
+
+           @media screen and (min-width: 1400px){
+           
+            .filter-item .secondary-text{
+                font-size: 24px;
+            }
+
+            .recentpay-header{
+                padding-left: 2%;
+               }
+               
+               .graph-info{
+                padding-top: 9%;
+                padding-left: 75px !important;
+            }
+
+           }

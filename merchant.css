@@ -1,5 +1,5 @@
 .dashboard-filter{
-    background: rgb(247, 244, 244); 
+    background-color: #FAFAFA; 
        padding-top: 10px;
        padding-bottom: 10px;
        border-radius: 10px;
@@ -17,7 +17,7 @@
     }
     
     .list-group-item{
-        background: rgb(247, 244, 244) !important; 
+        background-color: #FAFAFA !important; 
         border: none;
     }
 
@@ -39,6 +39,44 @@
     }
 
 
+    /* .main-content{
+        padding-left: 2.5%;
+    } */
+    
+
+
+    header{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    }
+
+    /* .main-content{
+        padding-left: 2.5%;
+        padding-right: 2.5%;  
+    } */
+
+
+    .recentpay-header{
+        padding-left: 5%;
+    }
+
+  .graph-img{
+    width: 314px;
+  }
+   .graph-info{
+    padding-top: 7%;
+    margin-bottom: -0px;
+   }
+
+
+
+ /* .main-content{
+    margin: auto;
+ } */
+
+
+
+
     @media screen and (min-width: 1300px){
   
         .filter-container{
@@ -46,28 +84,59 @@
         }
 
 
-        header h2{
+        /* header h2{
             padding-left: 15px;
-        }
+        } */
 
         .filter-item .secondary-text{
-            font-size: 22px;
+            font-size: 20px;
         }
+
+     .Payment-btn{
+        margin-left: 15%;
+     }
+
+
+        .recentpay-header{
+            padding-left: 7%;
+        }
+
+        .graph-info{
+            margin-top: 11.5%;
+            padding-left: 35px !important;
+           }
+
+        /* .graph-info{
+            padding-top: 5%;
+        } */
 
     }
 
 
 
     @media screen and (min-width: 1400px){
-
+/* 
         header h2{
             padding-left: 25px;
-        }
+        } */
      
         .filter-item .secondary-text{
             font-size: 24px;
         }
+       
+        .Payment-btn{
+            margin-left: 1%;
+         }
 
+
+        .recentpay-header{
+            padding-left: 5%;
+        }
+
+        .graph-info{
+            padding-top: 6%;
+            padding-left: 75px !important;
+        }
 
     }
     
