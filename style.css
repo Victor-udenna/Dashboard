@@ -183,7 +183,7 @@ line-height: 30.12px;
 .secondary-text{
     color: rgba(37, 39, 51, 1);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 header .secondary-text{
@@ -209,6 +209,7 @@ border: 0px;
 border-radius: 8px;
 background-color: rgba(235, 235, 236, 1);
 padding: 10px 12px 10px 12px;
+font-weight: 600;
 }
 
 
@@ -220,6 +221,7 @@ padding: 10px 12px 10px 12px;
     border-radius: 8px;
     width: 161px;
     height: 57px;
+    font-weight: 600;
 
 }
 
@@ -255,14 +257,17 @@ padding: 10px 12px 10px 12px;
 
 .companies{
     font-size: 13px;
+    font-weight: 400;
 }
 
 .amount{
     font-size: 13px;
+    font-weight: 600;
 }
 
 .no-id{
     font-size: 13px;
+    font-weight: 400;
 }
 
 
