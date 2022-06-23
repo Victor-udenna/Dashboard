@@ -1,393 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Global admin.css">
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish:wght@400;500;600;700&family=Outfit:wght@300;400;600&family=Permanent+Marker&family=Poppins:wght@300;400;700&family=Public+Sans:wght@300;400;700&family=Wendy+One&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Global admin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish:wght@400;500;600;700&family=Outfit:wght@300;400;600&family=Permanent+Marker&family=Poppins:wght@300;400;700&family=Public+Sans:wght@300;400;700&family=Wendy+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <main id="main" class="d-flex">
+      <aside class="col-2 d-flex flex-column align-items-center">
+        <section class="d-flex justify-content-around header-logo">
+          <div class="img-container">
+            <img src="./images/Union.png" alt="" width="2px" />
+          </div>
+          <p class="text-light h4">etas</p>
+        </section>
 
-        <aside class="col-2 d-flex flex-column align-items-center">
+        <section class="botton-container">
+          <div>
+            <!-- side bar btn container starts right above-->
 
-            <section class="d-flex justify-content-around header-logo">
-                <div class="img-container">
-                    <img src="./images/Union.png" alt="" width="2px">
-                </div>
-                <p class="text-light h4">etas</p>
-            </section>
-
-            <section class="botton-container">
-
-
-                <div>
-                    <!-- side bar btn container starts right above-->
-
-                    <div class="mb-4">
-                        <button class="sidebar-btn active text-start">
-                            <img src="./images/dashboard.svg" alt="" class="px-1 btn-img">
-                            <span class="text-light mt-1">Dashboard</span>
-                        </button>
-                    </div>
-
-
-
-                    <div class="mb-4">
-                  <a href="merchant.html">
-                    <button class="sidebar-btn text-start d-flex justify-content-between align-items-center">
-                        <div>
-                            <span class="btn-img"> <img src="./images/people-fill.svg" alt="" class="px-1"></span>
-                            <span class="text-light mt-1 pe-2">Merchant</span>
-                        </div>
-                    </button>
-                  </a>
-                    </div>
-
-
-                    <div class="mb-4">
-                        <button class="sidebar-btn text-start d-flex justify-content-between align-items-center">
-                            <div>   
-                                <span class="btn-img"><img src="./images/wallet.svg" alt="" class="px-1"></span>
-                                <span class="text-light mt-1 pe-4">Payroll Config</span>
-                            </div>
-                            <span><img src="./images/arrow-down.svg" alt="" class="arrow-down"></span>
-                        </button>
-                    </div>
-
-
-                    <div class="mb-4">
-                        <button
-                            class="merchant-button sidebar-btn text-start d-flex justify-content-between align-items-center">
-                            <div>
-                                <span class="btn-img"><img src="./images/file-earmark-text.svg" alt="" class="px-1 "></span>
-                                <span class="text-light mt-1">Reports</span>
-                            </div>
-
-                            <span><img src="./images/arrow-down.svg" alt="" class="arrow-down"></span>
-
-                        </button>
-                    </div>
-
-
-                    <div class="mb-4">
-                        <button class="sidebar-btn text-start d-flex justify-content-between align-items-center">
-                            <div>
-                                <span class="btn-img"><img src="./images/gear-fill.svg" alt="" class="px-1"></span>
-                                <span class="text-light mt-1">Account Settings</span>
-                            </div>
-
-                        </button>
-                    </div>
-
-
-                    <div class="mb-4">
-                        <button class="sidebar-btn text-start">
-                            <span class="btn-img"><img src="./images/question-circle-fill.svg" alt=""
-                                    class="px-1"></span>
-                            <span class="text-light mt-1">Help</span>
-                        </button>
-                    </div>
-
-
-
-                    <!-- dashboard btn container ends beneath -->
-                </div>
-            </section>
-
-            <!-- Avatar section -->
-            <div class="d-flex justify-content-around user-profile">
-
-                <div class="avatar-container">
-                    <img src="./images/avatar.png" alt="" class="avatar">
-                </div>
-
-                <div class="text-light text-start ps-2">
-                    <p class="mb-0">Orevaoghene</p>
-                    <p class="mb-0 text-muted">Agbro</p>
-                </div>
+            <div class="mb-4">
+              <button class="sidebar-btn active text-start">
+                <img src="./images/dashboard.svg" alt="" class="px-1 btn-img" />
+                <span class="text-light mt-1">Dashboard</span>
+              </button>
             </div>
-            <!-- End of avatar section -->
-        </aside>
 
+            <div class="mb-4">
+              <a href="merchant.html">
+                <button
+                  class="sidebar-btn text-start d-flex justify-content-between align-items-center"
+                >
+                  <div>
+                    <span class="btn-img">
+                      <img src="./images/people-fill.svg" alt="" class="px-1"
+                    /></span>
+                    <span class="text-light mt-1 pe-2">Merchant</span>
+                  </div>
+                </button>
+              </a>
+            </div>
 
+            <div class="mb-4">
+              <button
+                class="sidebar-btn text-start d-flex justify-content-between align-items-center"
+              >
+                <div>
+                  <span class="btn-img"
+                    ><img src="./images/wallet.svg" alt="" class="px-1"
+                  /></span>
+                  <span class="text-light mt-1 pe-4">Payroll Config</span>
+                </div>
+                <span
+                  ><img src="./images/arrow-down.svg" alt="" class="arrow-down"
+                /></span>
+              </button>
+            </div>
 
-
-
-
-
-
-        <section id="main-content" class="col-10">
-
-            <nav class="d-flex justify-content-end col-12 container-fluid">
-                <div class="icon-container">
-                    <img src="./images/icons8-search.svg" alt="" class="nav-icon search-icon">
+            <div class="mb-4">
+              <button
+                class="merchant-button sidebar-btn text-start d-flex justify-content-between align-items-center"
+              >
+                <div>
+                  <span class="btn-img"
+                    ><img
+                      src="./images/file-earmark-text.svg"
+                      alt=""
+                      class="px-1"
+                  /></span>
+                  <span class="text-light mt-1">Reports</span>
                 </div>
 
-                <div class="icon-container">
+                <span
+                  ><img src="./images/arrow-down.svg" alt="" class="arrow-down"
+                /></span>
+              </button>
+            </div>
 
-                    <img src="./images/bell-solid.svg" alt="" class="nav-icon bell-icon">
+            <div class="mb-4">
+              <button
+                class="sidebar-btn text-start d-flex justify-content-between align-items-center"
+              >
+                <div>
+                  <span class="btn-img"
+                    ><img src="./images/gear-fill.svg" alt="" class="px-1"
+                  /></span>
+                  <span class="text-light mt-1">Account Settings</span>
                 </div>
+              </button>
+            </div>
 
-                <div class="icon-container">
-                    <img src="./images/arrow-right-from-bracket-solid.svg" alt="" class="nav-icon exit-icon">
-                </div>
-            </nav>
+            <div class="mb-4">
+              <button class="sidebar-btn text-start">
+                <span class="btn-img"
+                  ><img
+                    src="./images/question-circle-fill.svg"
+                    alt=""
+                    class="px-1"
+                /></span>
+                <span class="text-light mt-1">Help</span>
+              </button>
+            </div>
 
-            <header class="d-flex justify-content-between align-items-center">
-                <div class="header-text">
-                    <h2>Dashboard</h2>
-                </div>
+            <!-- dashboard btn container ends beneath -->
+          </div>
+        </section>
 
+        <!-- Avatar section -->
+        <div class="d-flex justify-content-around user-profile">
+          <div class="avatar-container">
+            <img src="./images/avatar.png" alt="" class="avatar" />
+          </div>
 
-                <div class="d-flex justify-content-between align-items-center header-iconcontainer">
-                    <div> <span>From</span></div>
-                    <div><img src="./images/calendar2-week-fill.svg" alt="" class="header-icon"> <span>-</span> </div>
-                    <div> <img src="./images/calendar2-week-fill.svg" alt="" class="header-icon"></div>
+          <div class="text-light text-start ps-2">
+            <p class="mb-0">Orevaoghene</p>
+            <p class="mb-0 text-muted">Agbro</p>
+          </div>
+        </div>
+        <!-- End of avatar section -->
+      </aside>
 
-                </div>
+      <section id="main-content" class="col-10">
+        <nav class="d-flex justify-content-end col-12 container-fluid">
+          <div class="icon-container">
+            <img
+              src="./images/icons8-search.svg"
+              alt=""
+              class="nav-icon search-icon"
+            />
+          </div>
 
-                </div>
+          <div class="icon-container">
+            <img
+              src="./images/bell-solid.svg"
+              alt=""
+              class="nav-icon bell-icon"
+            />
+          </div>
 
-            </header>
+          <div class="icon-container">
+            <img
+              src="./images/arrow-right-from-bracket-solid.svg"
+              alt=""
+              class="nav-icon exit-icon"
+            />
+          </div>
+        </nav>
 
+        <header class="d-flex justify-content-between align-items-center">
+          <div class="header-text">
+            <h2>Dashboard</h2>
+          </div>
 
+          <div
+            class="d-flex justify-content-between align-items-center header-iconcontainer"
+          >
+            <div><span>From</span></div>
+            <div>
+              <img
+                src="./images/calendar2-week-fill.svg"
+                alt=""
+                class="header-icon"
+              />
+              <span>-</span>
+            </div>
+            <div>
+              <img
+                src="./images/calendar2-week-fill.svg"
+                alt=""
+                class="header-icon"
+              />
+            </div>
+          </div>
+        </header>
 
-            <!-- <section class="dashboard-filter d-flex col-lg-12 justify-content-around"> -->
+        <!-- <section class="dashboard-filter d-flex col-lg-12 justify-content-around"> -->
 
-            <section class="dashboard-filter col-lg-12 list-group list-group-horizontal">
+        <section
+          class="dashboard-filter col-lg-12 list-group list-group-horizontal"
+        >
+          <div class="filter-item list-group-item w-25">
+            <p class="m-0 primary-text">Transaction value</p>
+            <p class="m-0 secondary-text">&#8358;3,000,000,000</p>
+          </div>
 
-                <div class="filter-item list-group-item w-25">
-                    <p class=" m-0 primary-text">Transaction value</p>
-                    <p class="m-0 secondary-text"> &#8358;3,000,000,000</p>
-                </div>
+          <div class="filter-item list-group-item w-25">
+            <p class="m-0 primary-text">Transaction volume</p>
+            <p class="m-0 secondary-text">300,00</p>
+          </div>
 
-                <div class="filter-item list-group-item w-25">
-                    <p class=" m-0 primary-text">Transaction volume</p>
-                    <p class="m-0 secondary-text">300,00</p>
-                </div>
+          <div class="filter-item list-group-item w-25">
+            <p class="m-0 primary-text">Saved payment count</p>
+            <p class="m-0 secondary-text">500</p>
+          </div>
 
-                <div class="filter-item list-group-item w-25">
-                    <p class=" m-0 primary-text">Saved payment count</p>
-                    <p class="m-0 secondary-text">500</p>
-                </div>
+          <div class="filter-item filter-item3 list-group-item w-25">
+            <p class="m-0 primary-text">Merchant count</p>
+            <p class="m-0 secondary-text">500</p>
+          </div>
+        </section>
 
-                <div class="filter-item filter-item3 list-group-item w-25">
-                    <p class=" m-0 primary-text">Merchant count</p>
-                    <p class="m-0 secondary-text">500</p>
-                </div>
-            </section>
-
-
-
-            <article class="main-content d-flex col-12 pt-3 justify-content-between">
-                <section class="col-lg-7 col-xl-7 col-xxl-8 sub-content" title="unable to load, try reconnecting">
-
-                    <div class="row col-12 pt-3 gx-0 Daily-content">
-
-                        <!-- <div class="img-container col-8">
+        <article
+          class="main-content d-flex col-12 pt-3 justify-content-between"
+        >
+          <section
+            class="col-lg-7 col-xl-7 col-xxl-8 sub-content"
+            title="unable to load, try reconnecting"
+          >
+            <div class="row col-12 pt-3 gx-0 Daily-content">
+              <!-- <div class="img-container col-8">
         <img src="./images/5ykYD.png" alt="" class="graph-img">
     </div> -->
 
-                        <div class="col-12 ps-2 mb-4">
-                            <button class="btn-duration"> <span class="duration-icon text-center"><img
-                                        src="./images/calendar2-week-fill2.svg" alt=""></span> <span
-                                    class="pe-1">Daily</span> <span><img src="./images/arrow-down2.svg"
-                                        alt=""></span></button>
-                        </div>
+              <div class="col-12 ps-2 mb-4">
+                <button class="btn-duration">
+                  <span class="duration-icon text-center"
+                    ><img src="./images/calendar2-week-fill2.svg" alt=""
+                  /></span>
+                  <span class="pe-1">Daily</span>
+                  <span><img src="./images/arrow-down2.svg" alt="" /></span>
+                </button>
+              </div>
+
+              <div
+                class="text-center col-8 text-center text-danger d-flex flex-column justify-content-center"
+              >
+                <p>
+                  <img
+                    src="./images/exclamation-triangle-fill.svg"
+                    alt=""
+                    class="alert-icon"
+                  />
+                </p>
+                <br />
+                <p class="">Opps..unable to load chart</p>
+                <br />
+                <h5 class="text-warning">TRY RECONNECTING</h5>
+              </div>
+
+              <div class="graph-info col-4 pe-0 ps-1">
+                <div
+                  class="d-flex flex-column mb-4 rounded ps-2 graph-info-btn"
+                >
+                  <p
+                    class="primary-text d-flex justify-content-between m-0 align-items-center"
+                  >
+                    <span>Statutory Bodies</span>
+                    <span><img src="./images/purpledot.svg" alt="" /></span>
+                  </p>
+                  <p class="secondary-text m-0">₦500,000</p>
+                  <p class="primary-text m-0">20,000 transactions</p>
+                </div>
+
+                <div
+                  class="d-flex flex-column mb-4 rounded ps-2 graph-info-btn"
+                >
+                  <p
+                    class="primary-text d-flex justify-content-between m-0 align-items-center"
+                  >
+                    <span>Beneficiary Bank</span>
+                    <span><img src="./images/bluedot.svg" alt="" /></span>
+                  </p>
+                  <p class="secondary-text m-0">₦500,000</p>
+                  <p class="primary-text m-0">20,000 transactions</p>
+                </div>
+
+                <div
+                  class="d-flex flex-column mb-4 rounded ps-2 graph-info-btn graph-info-btn-active"
+                >
+                  <p
+                    class="primary-text d-flex justify-content-between m-0 align-items-center"
+                  >
+                    <span>Total </span>
+                    <span><img src="./images/lighjtbluedot.svg" alt="" /></span>
+                  </p>
+                  <p class="secondary-text m-0">₦500,000</p>
+                  <p class="primary-text m-0">20,000 transactions</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row col-12 gx-0 volume-container justify-content-between gy-3 pb-4 px-3 pt-3"
+            >
+              <h6 class="m-0">Volume/Value Breakdown</h6>
+              <div class="d-flex justify-content-between">
+                <p class="primary-text m-0">Statutory Bodies</p>
+                <p class="primary-text m-0">Beneficiary Banks</p>
+              </div>
+
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">NHIS</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">NFH</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">MFB</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">PFA</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">PAYE</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+              <div class="col-lg-6 col-xl-4 volume-item">
+                <p class="m-0 primary-text">Commercial</p>
+                <h5 class="m-0 secondary-text">₦500,000</h5>
+                <p class="m-0 primary-text">20,000 transactions</p>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="col-lg-5 col-xl-5 col-xxl-4 id-container align-items-start ms-2"
+          >
+            <div
+              class="btn-container d-flex justify-content-evenly Payment-btn"
+            >
+              <button class="view_paymentbtn me-3">View Payments</button>
+              <button class="initiate_paymentbtn">Initiate Payment</button>
+            </div>
+
+            <div class="pt-3 recent-payment">
+              <h2 class="secondary-text recentpay-header">Recent Payments</h2>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column m-0 pb-3">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Etranzact International PLC
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column m-0 pb-3">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Seamfix Conglomerate
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Parkway Driveby
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column m-0 pb-3">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Chicken Republic
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Kells and Chaffey
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+             
+
+              <div id="hidden-element">
+              
+                <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Mega Chicken
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Max HQ
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Crestmark PLC
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+
+              <div
+                class="d-flex justify-content-between ID align-items-start Payment"
+              >
+                <div class="d-flex flex-column">
+                  <p class="m-0 companies">
+                    <span
+                      ><img
+                        src="./images/dot.svg"
+                        alt=""
+                        class="greendot" /></span
+                    >Kells and Chaffey
+                  </p>
+                  <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
+                </div>
+
+                <p class="amount m-0">₦3,000,000,000</p>
+              </div>
+               
 
 
-
-                        <div
-                            class="text-center col-8 text-center text-danger d-flex flex-column justify-content-center">
-                            <p><img src="./images/exclamation-triangle-fill.svg" alt="" class="alert-icon"></p>
-                            <br>
-                            <p class="">Opps..unable to load chart</p>
-                            <br>
-                            <h5 class="text-warning">TRY RECONNECTING</h5>
-
-                        </div>
-
-
-
-                        <div class="graph-info col-4 pe-0  ps-1">
-
-                            <div class="d-flex flex-column  mb-4 rounded ps-2 graph-info-btn">
-                                <p class="primary-text d-flex justify-content-between m-0 align-items-center">
-                                    <span>Statutory Bodies</span> <span><img src="./images/purpledot.svg" alt=""></span>
-                                </p>
-                                <p class="secondary-text m-0">₦500,000</p>
-                                <p class="primary-text m-0">20,000 transactions</p>
-                            </div>
-
-                            <div class="d-flex flex-column  mb-4 rounded ps-2 graph-info-btn">
-                                <p class="primary-text d-flex justify-content-between m-0 align-items-center">
-                                    <span>Beneficiary Bank</span> <span><img src="./images/bluedot.svg" alt=""></span>
-                                </p>
-                                <p class="secondary-text m-0">₦500,000</p>
-                                <p class="primary-text m-0">20,000 transactions</p>
-                            </div>
-
-                            <div class="d-flex flex-column mb-4 rounded ps-2 graph-info-btn graph-info-btn-active">
-                                <p class="primary-text d-flex justify-content-between m-0 align-items-center">
-                                    <span>Total </span> <span><img src="./images/lighjtbluedot.svg" alt=""></span> </p>
-                                <p class="secondary-text m-0">₦500,000</p>
-                                <p class="primary-text m-0">20,000 transactions</p>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="row col-12 gx-0 volume-container justify-content-between gy-3 pb-4 px-3 pt-3">
-                        <h6 class="m-0">Volume/Value Breakdown</h6>
-           <div class="d-flex justify-content-between">
-               <p class="primary-text m-0">Statutory Bodies</p>
-               <p class="primary-text m-0">Beneficiary Banks</p>
-           </div>
-           
-           
-           <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">NHIS</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-        <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">NFH</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-        <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">MFB</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-        <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">PFA</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-        <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">PAYE</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-        <div class="col-lg-6 col-xl-4 volume-item">
-            <p class="m-0 primary-text">Commercial</p>
-            <h5 class="m-0 secondary-text">₦500,000</h5>
-            <p class="m-0 primary-text">20,000 transactions</p>
-        </div>
-                               </div>
-
-
-
-                </section>
-
-
-
-                <section class="col-lg-5 col-xl-5 col-xxl-4 id-container align-items-start ms-2">
-                    <div class="btn-container d-flex justify-content-evenly Payment-btn">
-                        <button class="view_paymentbtn me-3">View Payments</button>
-                        <button class="initiate_paymentbtn">Initiate Payment</button>
-                    </div>
-
-
-                    <div class="pt-3 recent-payment">
-                        <h2 class="secondary-text recentpay-header">Recent Payments</h2>
-
-
-                        <div class="d-flex justify-content-between ID align-items-start Payment">
-                            <div class="d-flex flex-column m-0 pb-3">
-                                <p class="m-0 companies"> <span><img src="./images/dot.svg" alt=""
-                                            class="greendot"></span>Etranzact International PLC
-                                </p>
-                                <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
-                            </div>
-
-                            <p class="amount m-0">₦3,000,000,000</p>
-                        </div>
-
-
-                        <div class="d-flex justify-content-between ID align-items-start Payment">
-                            <div class="d-flex flex-column m-0 pb-3">
-                                <p class="m-0 companies"> <span><img src="./images/dot.svg" alt=""
-                                            class="greendot"></span>Seamfix Conglomerate
-                                </p>
-                                <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
-                            </div>
-
-                            <p class="amount m-0">₦3,000,000,000</p>
-                        </div>
-
-
-
-                        <div class="d-flex justify-content-between ID align-items-start Payment">
-                            <div class="d-flex flex-column">
-                                <p class="m-0 companies"> <span><img src="./images/dot.svg" alt=""
-                                            class="greendot"></span>Parkway Driveby
-                                </p>
-                                <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
-                            </div>
-
-                            <p class="amount m-0">₦3,000,000,000</p>
-                        </div>
-
-                        <div class="d-flex justify-content-between ID align-items-start Payment">
-                            <div class="d-flex flex-column m-0 pb-3">
-                                <p class="m-0 companies"> <span><img src="./images/dot.svg" alt=""
-                                            class="greendot"></span>Chicken Republic
-                                </p>
-                                <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
-                            </div>
-
-                            <p class="amount m-0">₦3,000,000,000</p>
-                        </div>
-
-
-
-                        <div class="d-flex justify-content-between ID align-items-start Payment">
-                            <div class="d-flex flex-column">
-                                <p class="m-0 companies"> <span><img src="./images/dot.svg" alt=""
-                                            class="greendot"></span>Kells and Chaffey
-                                </p>
-                                <p class="primary-text ps-4 m-0">Sept 20,2008 10:13AM</p>
-                            </div>
-
-                            <p class="amount m-0">₦3,000,000,000</p>
-                        </div>
-
-
-                        <div class="text-center mt-3">
-                            <a href="#">See all</a>
-                        </div>
-                  </div>
-                </section>
-            </article>
-
-        </section>
-
+              </div>
+              <div class="text-center mt-3">
+                <button id="seeall_btn" class="seeall_btn">See all</button>
+              </div>
+            </div>
+          </section>
+        </article>
+      </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
-</body>
-
+  </body>
 </html>

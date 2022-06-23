@@ -1,0 +1,12 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
