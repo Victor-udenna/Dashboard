@@ -4,13 +4,13 @@
 
 .header-logo{
 padding-top: 9%;
-margin-bottom: 28%;
+margin-bottom: 8%;
 }
 
 
 
 .user-profile{
-    padding-top: 50%;
+    /* padding-top: 50%; */
     cursor: pointer;
 }
 
@@ -364,6 +364,31 @@ aside a{
     display: none;
 } */
 
+
+div ul li{
+    list-style-type: none;
+    color: rgb(158, 153, 153);
+    font-size: 12px;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+
+div ul li:hover{
+    color: white;
+}
+
+
+
+
+
+/* .merchant-sublist{
+
+} */
+
+
+
+
 @media screen and (min-width: 1300px){
 
 
@@ -396,9 +421,17 @@ aside a{
     font-size: 14px;  
     }
 
-    .user-profile{
-        padding-top: 60%;
+    .sub-list{
+        font-size: 13px;
     }
+
+    .merchant-sublist{
+        font-size: 13px;
+    }
+
+    /* .user-profile{
+        padding-top: 60%;
+    } */
 
     
     .header-text{
@@ -495,6 +528,14 @@ aside a{
 .alert-icon{
     width: 50px;
  }
+
+ .sub-list{
+    font-size: 15px;
+}
+
+.merchant-sublist{
+    font-size: 15px;
+}
 
 
     

@@ -71,6 +71,23 @@
     .recent-payment{
         padding: 3%;
     }
+
+
+    #payroll_subList{
+    display: none;
+}
+
+#payroll_subList.open{
+    display: block;
+}
+
+#report_subList{
+    display: none;
+}
+
+#report_subList.open{
+    display: block;
+}
      
      
            

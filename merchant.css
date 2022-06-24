@@ -68,12 +68,36 @@
     margin-bottom: -0px;
    }
 
+   #paymentSubList{
+    display: none;
+   }
 
+   #paymentSubList.open{
+    display: block;
+   }
 
- /* .main-content{
-    margin: auto;
- } */
+   #report_subList{
+    display: none;
+}
 
+#report_subList.open{
+    display: block;
+}
+
+#Accseting_subList{
+    display: none;
+}
+
+#Accseting_subList.open{
+    display: block;
+}
+
+#people_subList{
+    display: none;
+}
+#people_subList.open{
+    display: block;
+}
 
 
 
