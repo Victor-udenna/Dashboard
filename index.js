@@ -1,13 +1,13 @@
 // alert("Unable to load chart feed, try reconnectiong to a stronger internet connection");
 
 function showMore() {
-  document.querySelector('#hidden-element').classList.toggle('open')
-  document.getElementById('seeall_btn').innerHTML('see less')
+  document.querySelector("#hidden-element").classList.toggle("open");
+  document.getElementById("seeall_btn").innerHTML("see less");
 }
 // Adds content in a function
-let btn = document.querySelector('#seeall_btn')
+let btn = document.querySelector("#seeall_btn");
 //stores btn in variable
-btn.addEventListener('click', showMore)
+btn.addEventListener("click", showMore);
 // runs function
 
 // let textchange = document.querySelector('.seeall_btn');
@@ -23,33 +23,38 @@ btn.addEventListener('click', showMore)
 // textchange.addEventListener('click', changetext)
 // textchange.innerText= 'darkgreen';
 
-const revertext = document.querySelector('.seeall_btn')
+const revertext = document.querySelector(".seeall_btn");
 
 // ✅ Toggle button text on click
-revertext.addEventListener('click', function handleClick() {
-  const initialText = 'See all'
+revertext.addEventListener("click", function handleClick() {
+  const initialText = "See all";
 
   if (revertext.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-    revertext.textContent = 'See less'
+    revertext.textContent = "See less";
   } else {
-    revertext.textContent = initialText
+    revertext.textContent = initialText;
   }
-})
+});
 
-let openmodal = document.querySelector('.error')
-let closeModal = document.querySelector('#close-btn')
-let modalContainer = document.querySelector('.pop-up-container')
+let openmodal = document.querySelector(".error");
+let closeModal = document.querySelector("#close-icon");
+let closeModal2 = document.querySelector(".close-btn");
+let modalContainer = document.querySelector(".pop-up-container");
 
-openmodal.addEventListener('click', function () {
-  modalContainer.style.display = 'block'
-})
+openmodal.addEventListener("click", function () {
+  modalContainer.style.display = "block";
+});
 
-closeModal.addEventListener('click', function () {
-  modalContainer.style.display = 'none'
-})
+closeModal.addEventListener("click", function () {
+  modalContainer.style.display = "none";
+});
 
-window.addEventListener('click', function (e) {
+closeModal2.addEventListener("click", function () {
+  modalContainer.style.display = "none";
+});
+
+window.addEventListener("click", function (e) {
   if (e.target === modalContainer) {
-    modalContainer.style.display = 'none'
+    modalContainer.style.display = "none";
   }
-})
+});
