@@ -39,22 +39,10 @@
     }
 
 
-    /* .main-content{
-        padding-left: 2.5%;
-    } */
-    
-
-
     header{
     padding-left: 2.5%;
     padding-right: 2.5%;
     }
-
-    /* .main-content{
-        padding-left: 2.5%;
-        padding-right: 2.5%;  
-    } */
-
 
     .recentpay-header{
         padding-left: 5%;
@@ -107,11 +95,6 @@
             padding-right: 0px !important;
         }
 
-
-        /* header h2{
-            padding-left: 15px;
-        } */
-
         .filter-item .secondary-text{
             font-size: 20px;
         }
@@ -130,19 +113,13 @@
             padding-left: 35px !important;
            }
 
-        /* .graph-info{
-            padding-top: 5%;
-        } */
 
     }
 
 
 
     @media screen and (min-width: 1400px){
-/* 
-        header h2{
-            padding-left: 25px;
-        } */
+
      
         .filter-item .secondary-text{
             font-size: 24px;
